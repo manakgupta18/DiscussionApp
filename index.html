@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <h1 id="head1">Discussion Portal</h1>
+  <div id="conatiner">
+    <div id="left">
+      <div id="searchBar">
+        <button id="new">New Question form</button>
+        <input id="search" type="search"  placeholder="Search questions.."/>
+      </div>
+      <div id="questions">
+        <!--Question here-->
+      </div>
+    </div>
+    <div id="right">
+      <div id="home">
+        <h1 id="head2">Welcome to Discussion Portal!<h1>
+            <h4 id="head3">Enter a subject and question to get started.</h4>
+            <input type="text" placeholder="Subject" id="subject"/>
+            <br />
+            <br />
+            <textarea placeholder="Question" id="description"></textarea>
+            <button id="submit">Submit</button>
+      </div>
+
+      <div id="response">
+        <h3>Question</h3>
+        <div id="ques_container">
+          <h3 id="ques"></h3>
+          <p id="desc"></p>
+        </div>
+        <button id="resolve"> Resolve</button>
+        <br />
+        <br />
+        <h3>Response</h3>
+        <div id="response_container">
+        </div>
+        <br />
+
+        <h3>Add Response </h3>
+        <input type="text" id="name" placeholder="Enter name"/>
+        <textarea id="comment" placeholder="Enter description"></textarea>
+        <button id="submit_response">Submit</button>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
